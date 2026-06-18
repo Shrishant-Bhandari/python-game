@@ -7,10 +7,15 @@ draw = 0
 
 while cond :
     comp = r.randint(1,3)
-    user = int(input("""Enter the number : 
+    try:
+        user = int(input("""Enter the number : 
                                            1. ROCK
                                            2. PAPER
                                            3. SCISSOR \n"""))
+    
+    except ValueError:
+        print("You fool!! Enroll in 4th class english subject")
+        
     if comp == 1:
         print("COMPUTER CHOICE : ROCK")
 
