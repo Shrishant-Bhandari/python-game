@@ -15,7 +15,8 @@ while cond :
     
     except ValueError:
         print("You fool!! Enroll in 4th class english subject")
-        
+        exit()
+
     if comp == 1:
         print("COMPUTER CHOICE : ROCK")
 
