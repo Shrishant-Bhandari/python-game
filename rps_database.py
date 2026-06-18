@@ -14,7 +14,7 @@ while cond :
                                            3. SCISSOR \n"""))
     
     except ValueError:
-        print("You fool!! Enroll in 4th class english subject")
+        print("You fool!! Enroll in 4th std english class")
         exit()
 
     if comp == 1:
